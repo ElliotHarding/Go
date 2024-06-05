@@ -5,6 +5,9 @@ import "time"
 import "sync"
 //import "fileManipulator"
 
+//Got all the (core) templates out of the way. Demonstrating ability to (via other project exampels) make use of go
+// to tackle any project tasks, by just combining the templates in the correct way.
+
 //Enums & consts
 const (
     enumSimilar = 1
