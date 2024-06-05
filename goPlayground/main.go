@@ -175,6 +175,17 @@ func main() {
 
 
     //External files & file handling
-    fileInOutAndAbout()
+    err := fileWrite("file.txt", "Hello")
+    if err != nil {
+        fmt.Println(err)
+    }
+
+    fileContents, err := readFile("file.txt")
+    if err != nil {
+        fmt.Println("Something wrong")
+    } else {
+        fmt.Println(fileContents)
+    }
+
 }
 
