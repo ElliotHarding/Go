@@ -3,13 +3,13 @@ import "fmt"
 import "strconv"
 import "time"
 import "sync"
-import "goPlayground"
+//import "fileManipulator"
 
 //Enums & consts
-const {
+const (
     enumSimilar = 1
     enumSImilar2 = 2
-}
+)
 
 //OOP:
 type aStructType struct {
@@ -174,8 +174,7 @@ func main() {
     fmt.Println(interfaceVariable.interfaceFunction())
 
 
-
     //External files & file handling
-    fileManipulator.fileInOutAndAbout()
+    fileInOutAndAbout()
 }
 
